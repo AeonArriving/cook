@@ -8,6 +8,6 @@ COPY . .
 
 RUN pnpm install && pnpm run generate
 
-FROM nginx:stable-alpine
+FROM nginx:1.27.2-alpine3.20
 COPY --from=builder /app/.output/public /usr/share/nginx/html
 EXPOSE 80
