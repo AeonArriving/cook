@@ -21,7 +21,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "vue-about-me": "^1.2.7"
+    "vue-about-me": "^1.4.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.40.2",
